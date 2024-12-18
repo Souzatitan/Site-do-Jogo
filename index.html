@@ -5,28 +5,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Site do Jogo</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-
-
-
+	<link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
 </head>
 <body>
 
 <section class="main">
-<header>
-	<div class="center menu-container">
-		<div class="logo">
+	<header>
+		<div class="center menu-container">
+			<div class="logo">
 				<h3><i class="fa-solid fa-scroll"></i>Herdeiros da Aurora</h3>
+			</div>
+	
+			<button class="hamburger" id="hamburger" aria-label="Menu">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+	
+			<ul class="nav-menu" id="nav-menu">
+				<li><a class="ativo" href="">Home</a></li>
+				<li><a href="">Sobre</a></li>
+				<li><a href="">Site</a></li>
+				<li><a href="">Contato</a></li>
+			</ul>
 		</div>
-		<div class="menu">
-			<a class="active-menu" href="">Home</a>
-			<a href="">Sobre</a>
-			<a href="">Site</a>
-			<a href="">Contato</a>
-		</div>
-	</div><!--center-->
-</header>	
-<div class="text-chamada"><h1>Descubra essa Aventura!</h1><h3>Enjoy it</h3></div>	
+	</header>
+
+	<div class="text-chamada"><h1>Descubra essa Aventura!</h1><h3>Enjoy it</h3></div>	
+
 </section>	
 
 <section class="Heróis">
@@ -35,46 +42,48 @@
 		<p>Aqui estao os tipos de herois que voce pode esolher para sua aventura </p>
 		<br/>
 		<br/>
-		<div class="center produto-container">
-			<div class="produt-single">
-				<img src="paladino.jpeg">
-				<h3>Paladino</h3>
-				<p>Em jogos de RPG, o Paladino é uma classe de personagens típica de cenários de 
+
+			<div class="center produto-container">
+				<div class="produt-single">
+					<img src="./images/paladino.jpeg">
+					<h3>Paladino</h3>
+					<p>Em jogos de RPG, o Paladino é uma classe de personagens típica de cenários de 
 					fantasia medieval, dentre os quais se destacam os jogos Dungeons & Dragons,
 					 também chamado de D&D e Pathfinder Roleplaying Game. Uma classe dá habilidades 
 					 exclusivas para o personagem de cada classe</p>
-		</div>
+			</div>
 			<div class="produt-single">
-				<img src="mago.jpeg">
+				<img src="./images/mago.jpeg">
 				<h3>Mago</h3>
 				<p>Em jogos de RPG, o Paladino é uma classe de personagens típica de cenários de 
 				fantasia medieval, dentre os quais se destacam os jogos Dungeons & Dragons,
 				 também chamado de D&D e Pathfinder Roleplaying Game. Uma classe dá habilidades 
 				 exclusivas para o personagem de cada classe</p>
-		</div>
-		<div class="produt-single">
-			<img src="padre.jpeg">
-			<h3>Padre</h3>
-			<p>Em jogos de RPG, o Paladino é uma classe de personagens típica de cenários de 
+			</div>
+			<div class="produt-single">
+				<img src="./images/padre.jpeg">
+				<h3>Padre</h3>
+				<p>Em jogos de RPG, o Paladino é uma classe de personagens típica de cenários de 
 				fantasia medieval, dentre os quais se destacam os jogos Dungeons & Dragons,
 			 	também chamado de D&D e Pathfinder Roleplaying Game. Uma classe dá habilidades 
 			 	exclusivas para o personagem de cada classe</p>
-</div>
-		<div class="produt-single">
-			<img src="assassino.jpeg">
-			<h3>Assassino</h3>
-			<p>Em jogos de RPG, o Paladino é uma classe de personagens típica de cenários de 
+			</div>
+			<div class="produt-single">
+				<img src="./images/assassino.jpeg">
+				<h3>Assassino</h3>
+				<p>Em jogos de RPG, o Paladino é uma classe de personagens típica de cenários de 
 				fantasia medieval, dentre os quais se destacam os jogos Dungeons & Dragons,
 			 	também chamado de D&D e Pathfinder Roleplaying Game. Uma classe dá habilidades 
 		 		exclusivas para o personagem de cada classe</p>
-</div>
-
+			</div>
 	</div>
 
 
 </section>
-
-<footer><p> Todos os direitos reservados</p></footer>
+<script src="./js/index.js"></script>
+<footer>
+	<p> Todos os direitos reservados</p>
+</footer>
 
 </body>
 </html>
