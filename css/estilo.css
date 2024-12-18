@@ -114,6 +114,7 @@ section.Heróis h3{
 .produt-single{
 	width: 100%;
 	margin:0 10px;
+	box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, .3);
 }
 
 .produt-single h3{
