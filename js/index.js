@@ -1,9 +1,13 @@
-
-// Seleciona os elementos
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
-// Adiciona o evento de clique
-hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active'); // Adiciona ou remove a classe "active"
+hamburger.addEventListener('click', (e) => {
+    e.stopPropagation(); 
+    navMenu.classList.toggle('active'); 
 });
+
+document.addEventListener('click', () => {
+    navMenu.classList.remove('active'); 
+});
+
+
